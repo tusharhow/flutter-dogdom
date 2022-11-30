@@ -52,7 +52,7 @@ class PostWidget extends StatelessWidget {
                       ),
                       Text(
                         postLocation,
-                        style:const TextStyle(
+                        style: const TextStyle(
                           fontSize: 13,
                           color: Colors.grey,
                         ),
@@ -107,8 +107,10 @@ class PostWidget extends StatelessWidget {
               const SizedBox(width: 5),
               Text(
                 postLike,
-                style:const TextStyle(
+                style: const TextStyle(
                   fontSize: kDefaultPadding,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               const SizedBox(width: 20),
@@ -120,8 +122,10 @@ class PostWidget extends StatelessWidget {
               const SizedBox(width: 5),
               Text(
                 postComment,
-                style:const TextStyle(
+                style: const TextStyle(
                   fontSize: kDefaultPadding,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               const SizedBox(width: 20),
@@ -135,6 +139,8 @@ class PostWidget extends StatelessWidget {
                 postShare,
                 style: const TextStyle(
                   fontSize: kDefaultPadding,
+                  color: Colors.grey,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               const Spacer(),

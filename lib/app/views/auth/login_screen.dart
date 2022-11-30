@@ -97,7 +97,7 @@ class LoginScreen extends StatelessWidget {
                       'Get OTP',
                       style: TextStyle(
                         color: Colors.black,
-                        fontSize: 20,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -114,7 +114,10 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {},
                       child: const Text(
                         'Sign Up',
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ],
