@@ -103,6 +103,9 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -126,13 +129,14 @@ class LoginScreen extends StatelessWidget {
             ),
           ),
           const Positioned(
-            bottom: 30,
+            bottom: 20,
             left: 50,
             right: 30,
             child: Text(
               'By signing up, you agree to the Terms of Service and Privacy Policy',
               style: TextStyle(
                 color: Colors.white,
+                fontSize: 13,
               ),
               textAlign: TextAlign.center,
             ),
